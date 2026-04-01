@@ -211,7 +211,7 @@ export default function Hero() {
 
       {/* ---- Bottom: Product Preview Card ---- */}
       <div className="px-3">
-        <div className="relative w-full rounded-2xl overflow-hidden h-[507px] md:h-[737px] 2xl:h-[860px]">
+        <div className="relative w-full rounded-2xl overflow-hidden h-[507px] md:h-[737px] 2xl:h-[70vh]">
           {/* Background images — all rendered, crossfade via opacity */}
           {bgImages.map((src) => (
             <motion.div
