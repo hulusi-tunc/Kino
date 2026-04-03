@@ -51,7 +51,7 @@ export default function FeatureCards() {
     <section className="px-3">
       <div className="bg-dark-bg rounded-2xl py-6 md:py-24 overflow-hidden">
         {/* Header */}
-        <div className="max-w-[1200px] mx-auto px-6 md:px-8 flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 md:mb-10">
+        <div className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-6 md:px-8 flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 md:mb-10">
           <div>
             <span className="block font-instrument font-medium text-[11px] text-text-secondary uppercase tracking-[2.5px] mb-3">
               Features
@@ -99,11 +99,11 @@ export default function FeatureCards() {
           </div>
         </div>
 
-        {/* Carousel */}
+        {/* Carousel — left edge aligned with header text */}
         <div
           ref={scrollRef}
-          className="flex gap-5 md:gap-9 overflow-x-auto pl-6 md:pl-8 pr-4 pb-4 scroll-smooth snap-x snap-mandatory no-scrollbar"
-          style={{ scrollPaddingLeft: "24px" }}
+          className="flex gap-5 md:gap-9 overflow-x-auto pr-4 pb-4 scroll-smooth snap-x snap-mandatory no-scrollbar"
+          style={{ paddingLeft: "max(24px, calc((100% - 1200px) / 2 + 32px))" }}
         >
           {cards.map((card, i) => (
             <div key={i} className="flex flex-col gap-2 flex-shrink-0 snap-start">

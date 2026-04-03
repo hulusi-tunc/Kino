@@ -1,3 +1,5 @@
+import KinoLogo from "./KinoLogo";
+
 /* ------------------------------------------------------------------ */
 /*  Link Column                                                        */
 /* ------------------------------------------------------------------ */
@@ -78,14 +80,12 @@ function InstagramIcon() {
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-cream">
-      <div className="max-w-[1200px] mx-auto px-6 xl:px-0 pt-16 pb-12">
+      <div className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-6 xl:px-0 pt-16 pb-12">
         {/* Columns */}
         <div className="grid grid-cols-2 md:flex gap-8 md:gap-12">
           {/* Brand */}
           <div className="col-span-2 md:flex-1 flex flex-col gap-3">
-            <span className="font-sans font-semibold text-[18px] text-text-primary">
-              KINO
-            </span>
+            <KinoLogo className="h-[22px] w-auto text-text-primary" />
             <p className="font-sans text-[14px] leading-[22px] text-text-secondary max-w-[240px]">
               Your AI video director. Professional quality, one sentence away.
             </p>

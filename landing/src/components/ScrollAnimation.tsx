@@ -205,7 +205,7 @@ export default function ScrollAnimation() {
         </div>
 
         {/* ---- Scene ---- */}
-        <div className="relative flex-1 w-full max-w-[960px] mx-auto px-6 xl:px-0">
+        <div className="relative flex-1 w-full max-w-[960px] 2xl:max-w-[1100px] mx-auto px-6 xl:px-0">
           {/* ======== PERSISTENT VIDEO FRAME ======== */}
           <motion.div
             style={{

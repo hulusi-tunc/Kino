@@ -240,7 +240,7 @@ export default function Pricing() {
         <div className="absolute inset-0 bg-black/20" />
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col md:flex-row md:items-start gap-8 md:gap-10 p-6 py-10 md:p-16">
+        <div className="relative z-10 max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex flex-col md:flex-row md:items-start gap-8 md:gap-10 p-6 py-10 md:p-16">
           {/* Left column */}
           <div className="md:w-[340px] shrink-0 flex flex-col">
             <h2 className="font-inter-tight font-bold text-[32px] md:text-[40px] leading-[40px] md:leading-[48px] tracking-[-0.5px] text-text-primary">

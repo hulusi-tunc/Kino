@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import KinoLogo from "./KinoLogo";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -19,15 +20,10 @@ export default function Navigation() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between py-2 px-6 xl:px-0">
+      <div className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto flex items-center justify-between py-2 px-6 xl:px-0">
         {/* Logo */}
-        <a href="/" className="flex items-center">
-          <span className="text-[22px] font-bold text-text-primary tracking-tight font-inter-tight">
-            <span className="inline-block bg-text-primary text-cream px-[5px] py-[1px] rounded-[4px] mr-[1px] leading-none">
-              K
-            </span>
-            ino
-          </span>
+        <a href="/" className="flex items-center text-text-primary">
+          <KinoLogo className="h-[22px] w-auto" />
         </a>
 
         {/* Center Nav Links */}

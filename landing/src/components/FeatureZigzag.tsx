@@ -168,7 +168,7 @@ function StyleMemoryDemo() {
 export default function FeatureZigzag() {
   return (
     <section className="bg-cream py-[100px] md:py-[150px]">
-      <div className="max-w-[1200px] mx-auto px-6 xl:px-0 flex flex-col gap-24 md:gap-[200px]">
+      <div className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-6 xl:px-0 flex flex-col gap-24 md:gap-[200px]">
         {/* ---- Section A: Scene Edit (text LEFT, demo RIGHT) ---- */}
         <motion.div
           variants={fadeUp}

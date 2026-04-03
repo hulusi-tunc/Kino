@@ -91,7 +91,7 @@ export default function FAQ() {
 
   return (
     <section className="bg-cream py-24">
-      <div className="max-w-[880px] mx-auto px-6 xl:px-0">
+      <div className="max-w-[880px] 2xl:max-w-[1000px] mx-auto px-6 xl:px-0">
         {/* Headline */}
         <h2 className="font-sans font-semibold text-[32px] leading-[40px] tracking-[-0.3px] text-text-primary text-left md:text-center">
           Frequently Asked Questions

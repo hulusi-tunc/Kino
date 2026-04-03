@@ -7,7 +7,7 @@ function Divider() {
 export default function SocialProof() {
   return (
     <section className="bg-cream py-10 md:py-20">
-      <div className="max-w-[1200px] mx-auto px-6 xl:px-0 flex items-center justify-between">
+      <div className="max-w-[1200px] 2xl:max-w-[1400px] mx-auto px-6 xl:px-0 flex items-center justify-between">
         {/* Stat 1: Videos Created */}
         <div className="flex flex-col items-center">
           <span className="font-inter-tight font-bold text-[28px] text-text-primary">
